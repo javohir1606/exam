@@ -582,7 +582,7 @@ body {
   position: absolute;
   width: 173px;
   height: 207px;
-  right: 0px;
+  right: -3px;
   top: -100px;
   -webkit-transform: translate(-50%, 50%);
           transform: translate(-50%, 50%);
