@@ -351,7 +351,7 @@ body {
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
-  background-image: url("../img/img.svg");
+  background-image: url("../../img/img.svg");
   top: 18px;
   right: 200px;
 }
@@ -817,11 +817,11 @@ body {
 .menu_heading::after {
   content: "";
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   background-repeat: no-repeat;
-  background-image: url("../img/img.svg");
-  left: 0px;
+  background-image: url("../../img/lide.svg");
+  left: -3px;
 }
 
 .menu_caption {

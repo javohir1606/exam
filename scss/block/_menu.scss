@@ -98,14 +98,15 @@
 .menu_heading{
 position: relative;
 }
+
 .menu_heading::after{
   content: "";
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   background-repeat: no-repeat;
-  background-image: url('../img/img.svg');
-  left: 0px;
+  background-image: url('../../img/lide.svg');
+  left: -3px;
 }
 .menu_caption {
   font-family: var(--font-family);
