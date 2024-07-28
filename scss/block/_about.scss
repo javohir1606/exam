@@ -1,0 +1,32 @@
+.about_tx {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--1);
+  text-align: start;
+}
+
+.about_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--07);
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+.br{
+  display: none;
+}
+@media screen and (min-width: 768px){
+  br{
+    display: none;
+  }
+  .br{
+    display: block;
+  }
+}
+@media screen and (min-width: 1220px){
+  .br{
+    display: block;
+  }
+}

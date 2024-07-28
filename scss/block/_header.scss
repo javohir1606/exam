@@ -1,0 +1,368 @@
+.header {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.header_item {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.header_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_tx {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--03);
+}
+
+.header_title {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  position: relative;
+}
+.desc_link::after{
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url('../img/lg.svg');
+  top: 22px;
+}
+.headeer_itemm {
+  display: none;
+  gap: 8px;
+}
+
+.header_nuber {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--1);
+}
+
+.header_desc {
+  display: none;
+  align-items: center;
+  gap: 40px;
+}
+
+.header_list {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+
+
+.dect_tx {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--1);
+}
+
+.desc_link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--prime);
+}
+
+.dect_title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.desc_title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header_desc_block {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+
+.header_copy {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--1);
+  border-radius: 8px;
+  background-color: #fdefbf;
+  padding: 1px 8px 2px 8px;
+  border-bottom: 2px solid white;
+}
+
+.header_copy:hover {
+  color: var(--prime);
+}
+
+.header_lead {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--1);
+}
+
+.header_caption {
+  margin-top: 10px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--prime);
+  text-align: right;
+}
+
+.header_tagline {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--1);
+  border-bottom: 2px solid white;
+}
+
+.header_tagline:hover {
+  color: var(--prime);
+  border-bottom: 2px solid var(--prime);
+}
+
+.header__block {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+  gap: 10px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.header_quote {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 31px;
+}
+
+
+
+.header_btn {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  padding: 16px 16px 16px 52px;
+  border-radius: 16px;
+  background-color: var(--prime);
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.header_btn::before {
+  position: absolute;
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url('../img/nuqta.svg');
+  top: 15px;
+  left: 16px;
+}
+
+.header_btn:hover {
+  background-color: #52d116;
+}
+
+
+.header__block_block {
+  position: relative;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.header_input {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--03);
+  padding: 16px 299px 16px 56px;
+  border: 1px solid var(--03);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.header_form::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url('../img/search.svg');
+  top: 20px;
+  left: 260px;
+}
+
+.header__button {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  padding: 16px 69px 16px 59px;
+  border-radius: 16px;
+  background-color: #52d116;
+  border: none;
+  display: flex;
+  gap: 4px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.header_snippet::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-image: url('../img/img.svg');
+  top: 18px;
+  right: 200px;
+}
+
+.header__button span {
+  border-radius: 32px;
+  padding: 4px 12px;
+  width: 34px;
+  height: 32px;
+  box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #46c609;
+
+}
+.header__button span:hover {
+  background-color: var(--prime);
+}
+
+.header_page {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.header__button:hover {
+  background-color: var(--prime);
+}
+
+.header__link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--1);
+}
+
+.header__link:hover {
+  color: var(--prime);
+}
+
+.header_aside {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header_col {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #000 0%, #5e556b 100%);
+  border-radius: 8px;
+  padding: 20px 59px 20px 66px;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.header_box {
+  margin-top: 30px;
+  display: none;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.header_col::after {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url('../img/img2.svg');
+  right: 15px;
+  top: 16px;
+}
+
+.header_col::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: url('../img/img3.svg');
+  width: 54px;
+  height: 64px;
+  right: 220px;
+  top: 0px;
+}
+
+.header_aside:hover {
+  color: var(--prime);
+}
+
+@media screen and (min-width: 768px) {
+  .header_item {
+    display: none;
+  }
+
+  .headeer_itemm {
+    display: flex;
+  }
+
+  .header_desc {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header_block {
+    display: none;
+  }
+
+  .header_desc_block {
+    display: flex;
+  }
+
+  .header__block {
+    display: flex;
+  }
+  .header_box{
+    display: flex;
+  }
+  .header__block_block{
+    display: flex;
+  }
+}

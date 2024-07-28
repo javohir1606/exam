@@ -1,0 +1,140 @@
+.serves {
+  padding-bottom: 24px;
+}
+
+.serves_tx {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--1);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.serves_text {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--1);
+}
+
+.serves_item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.serves_lead {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--07);
+  margin-top: 12px;
+  padding-left: 15px;
+  padding-right: 20px;
+  text-align: start;
+}
+
+.serves_tile {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.serves_title {
+  margin-bottom: 24px;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.serves_btn {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--prime);
+  padding: 17px 60px;
+  border: 1px solid var(--prime);
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover {
+    color: #52d116;
+  }
+}
+.serves_desc{
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .serves_lead {
+    width: 307px;
+  }
+.serves_desc{
+  display: block;
+}
+  .serves_title {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .serves_title {
+    border-radius: 16px;
+    width: 228px;
+    height: 500px;
+    background: linear-gradient(180deg, #adffc1 0%, #f2f2f2 100%);
+    display: block;
+  }
+
+  .serves_tile {
+    border-radius: 16px;
+    width: 228px;
+    height: 500px;
+    background: linear-gradient(180deg, #fe94a6 0%, #f2f2f2 100%);
+    display: block;
+    &:nth-child(2){
+      background: linear-gradient(180deg, #e685ff 0%, #f2f2f2 100%);
+    }
+    &:nth-child(3){
+      background: linear-gradient(180deg, #7de9ff 0%, #f2f2f2 100%);
+    }
+    &:nth-child(4){
+      background: linear-gradient(180deg, #ffe685 0%, #f6f6f6 100%);
+    }
+  }
+ 
+  .serves_block {
+    display: grid;
+    grid-template-columns: repeat(5, 228px);
+    gap: 15px;
+    align-items: center;
+  }
+
+  .serves_item {
+    display: block;
+  }
+
+  .serves_item {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .serves_img {
+    width: 160px;
+    height: 160px;
+  }
+  .serves_text{
+    margin-top: 16px;
+  }
+  .serves_lead{
+    margin-top: 8px;
+    width: 260px;
+
+  }
+  .serves_desc{
+    text-align: center;
+  }
+  .serves_btn{
+    margin-top: 99px;
+  }
+}

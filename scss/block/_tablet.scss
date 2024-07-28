@@ -1,0 +1,152 @@
+.tablet {
+  padding-bottom: 24px;
+}
+
+.wrap_tx {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--1);
+  width: 228px;
+}
+
+.wrap_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--07);
+  margin-top: 8px;
+}
+
+.wrap_btn {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 70px 8px 16px;
+  border-radius: 8px;
+  background: linear-gradient(96deg, #f7355d 0%, #9747ff 100%);
+  border: none;
+  margin-top: 8px;
+  text-align: start;
+}
+
+.wrap_btn span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 4px;
+  display: block;
+}
+
+.wrap_form {
+  padding-top: 24px;
+}
+
+.wrap_page {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--05);
+  padding: 13px 50px 14px 24px;
+  background-color: #fff;
+  border: 1px solid var(--10);
+  border-radius: 8px;
+}
+
+.wrap_button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--07);
+  padding: 18px 117px;
+  margin-top: 8px;
+  border-radius: 8px;
+  background-color: var(--01);
+  border: none;
+}
+
+.wrap_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrap_lide {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 40px;
+  display: none;
+
+}
+
+.wrap_caption {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap_heading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .wrap_page {
+    width: 246px;
+  }
+
+  .wrap_button {
+    margin-top: 0;
+    text-align: center;
+    padding: 18px 33px;
+  }
+
+  .wrap_tx {
+    font-size: 32px;
+    width: 339px;
+  }
+
+  .wrap_text {
+    width: 300px;
+  }
+
+  .wrap_img {
+    width: 224px;
+    height: 173px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrap_form {
+    margin-top: 25px;
+    padding: 24px;
+    border-radius: 16px;
+    height: 196px;
+    background: linear-gradient(96deg, #f7355d 0%, #9747ff 100%);
+  }
+
+  .wrap_img {
+    width: 484px;
+    height: 371px;
+  }
+
+  .wrap_btn {
+    display: none;
+  }
+
+  .wrap_lide {
+    display: block;
+  }
+
+  .wrap_caption {
+    display: block;
+  }
+}

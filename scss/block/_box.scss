@@ -1,0 +1,25 @@
+.box{
+  padding-bottom: 24px;
+}
+.box_tx {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--prime);
+}
+@media screen and (min-width: 768px){
+  .box_block{
+    display: grid;
+    grid-template-columns: repeat(2, 259px);
+    gap: 40px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px){
+  .box_block{
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    gap: 24px;
+    justify-content: center;
+  }
+}
