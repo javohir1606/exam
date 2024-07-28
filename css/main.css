@@ -1179,6 +1179,11 @@ body {
   text-align: center;
 }
 
+.serves_img {
+  width: 60px;
+  height: 60px;
+}
+
 .serves_text {
   font-family: var(--font-family);
   font-weight: 700;
