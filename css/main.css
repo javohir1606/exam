@@ -315,7 +315,7 @@ body {
   border: 1px solid var(--03);
   border-radius: 8px;
   background-color: #fff;
-  width: 594px;
+  width: 600px;
 }
 
 .header_form::before {
